@@ -35,6 +35,9 @@ inputs:
     description: "S3 folder name (e.g. databases/production)"
     required: true
     default: ""
+  S3_ENDPOINT_URL:
+    description: "S3 endpoint url"
+    default: ""
 
   AWS_ACCESS_KEY_ID:
     description: "AWS access key"
