@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.18.4
 
 RUN apk --update add --no-cache bash binutils mysql-client python3 py3-pip
 RUN pip3 install --upgrade pip
