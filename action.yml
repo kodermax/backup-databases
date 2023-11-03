@@ -65,6 +65,7 @@ runs:
     IGNORED_DATABASES: ${{ inputs.IGNORED_DATABASES }}
     S3_BUCKET_NAME: ${{ inputs.S3_BUCKET_NAME }}
     S3_FOLDER: ${{ inputs.S3_FOLDER }}
+    S3_ENDPOINT_URL: ${{inputs.S3_ENDPOINT_URL}}
     AWS_ACCESS_KEY_ID: ${{ inputs.AWS_ACCESS_KEY_ID }}
     AWS_SECRET_ACCESS_KEY: ${{ inputs.AWS_SECRET_ACCESS_KEY }}
     AWS_REGION: ${{ inputs.AWS_REGION }}
